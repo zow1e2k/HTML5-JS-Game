@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Main</title>
+    <link rel="shortcut icon" href="icon.ico" >
+</head>
+<body>
+    <script src="js/hover.js"></script>
+    <div id="centerOfPage">
+        <canvas id="canvas" width="800" height="540" style = "border: 3px solid #FF4500"></canvas>
+        <script src="js/menu.js"></script>
+        <script src="js/graph.js"></script>
+        <script src="js/zombie.js"></script>
+        <script src="js/player.js"></script>
+            <br>
+            <button id="startGame" onclick="startGame()">Start Game</button>
+            <button id="bestScore" onclick="bestScore()">Leadership</button>
+            <button id="faq" onclick="faq()">FAQ</button>
+            <button id="settings" onclick="settings()">Settings</button>
+            <button id="returnToMenu" onclick="returnToMenu()">Return</button>
+            <button id="clearLocalStorage" onclick="clearLocalStorage()">Clear Local Storage</button>
+            <button id="godMode" onclick="godModeActivate()">God Mode</button>
+            <input type="text" id="name"></input>
+    </div>
+</body>
+</html>
